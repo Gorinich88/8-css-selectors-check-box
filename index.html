@@ -8,14 +8,64 @@
   <title>Document</title>
 </head>
 <body>
-  <form method="post" action="input5.php">
-    <p><b>С какими операционными системами вы знакомы?</b></p>
-    <p><input type="checkbox" name="option1" value="a1" checked>Windows 95/98<Br>
-    <input type="checkbox" name="option2" value="a2">Windows 2000<Br>
-    <input type="checkbox" name="option3" value="a3">System X<Br> 
-    <input type="checkbox" name="option4" value="a4">Linux<Br> 
-    <input type="checkbox" name="option5" value="a5">X3-DOS</p>
-    <p><input type="submit" value="Отправить"></p>
-   </form>
+<div class="header">
+  <h1>CSS Diner Shopping List</h1>
+  <h3>Let's go to the mall!</h3>
+</div>
+
+<form action="" class="diner_form">
+
+  <ul class="checkbox_block">
+
+    <li class="list-item">
+      <label for="one" class="check--label">
+        <input type="checkbox" class="hidden-box" id="one" />
+        <span class="check--label-text">A lot of pickles <small class="smal_text">( for the next lessons about CSS)</small></span>
+      </label>
+    </li>
+
+    <li class="list-item">
+      <label for="too" class="check--label">
+        <input type="checkbox" class="hidden-box" id="too" checked/>
+        <span class="check--label-text">10 apples <small class="smal_text">(for more CSS manipulations)</small></span>
+      </label>
+    </li>
+
+    <li class="list-item">
+      <label for="three" class="check--label">
+        <input type="checkbox" class="hidden-box" id="three" />
+        <span class="check--label-text">20 oranges <small class="smal_text">(because they are awesome)</small></span>
+      </label>
+    </li>
+
+    <li class="list-item">
+      <label for="four" class="check--label">
+        <input type="checkbox" class="hidden-box" id="four" />
+        <span class="check--label-text">13 plates <small class="smal_text">(hm... they always disappear)</small></span>
+      </label>
+    </li>
+
+    <li class="list-item">
+      <label for="five" class="check--label">
+        <input type="checkbox" class="hidden-box" id="five" />
+        <span class="check--label-text">15 bentos</span>
+      </label>
+    </li>
+
+    <li class="list-item">
+      <label for="six" class="check--label">
+        <input type="checkbox" class="hidden-box" id="six" />
+        <span class="check--label-text">1 bottle of Sake ^_^ <small class="smal_text">(for my friends)</small></span>
+      </label>
+    </li>
+
+  </ul>
+  
+    <button class="btn">Bon appetit:)</button>
+
+</form>
+
+
+
 </body>
 </html>
